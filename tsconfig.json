@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
     "module": "commonjs",
+    "target": "es5",
     "lib": ["es5", "es6", "es7", "es2017", "dom"],
-    "allowJs": false,
-    "jsx": "react",
-    "sourceMap": true
+    "jsx": "react"
   },
-  "exclude": ["node_modules", "build", "scripts", "es"]
+  "exclude": ["node_modules"]
 }
